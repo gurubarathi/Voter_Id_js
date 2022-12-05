@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //voter id logic
+        let age=parseInt(prompt("enter your age"));
+        let id = confirm ("do you have a voter id?");
+    
+        if(age>=18 || id==true)
+        {
+            if(age>=18 && id==false){
+              console.log("please get voter id for votting");
+            }
+            else if (age>=18 && id==true){
+            console.log("you are allowed for voting");
+            }
+            else{
+            console.log("you are not eligible for vottig")
+            }
+        } 
+    </script>  
+</body>
+</html>
